@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_basic_desing/widget/backgroud_gradient.dart';
-import 'package:flutter_basic_desing/widget/header_text.dart';
-import 'package:flutter_basic_desing/widget/tabs.dart';
+import 'package:flutter_basic_desing/widget/cards_gradient_blur/backgroud_gradient.dart';
+import 'package:flutter_basic_desing/widget/cards_gradient_blur/card_table.dart';
+import 'package:flutter_basic_desing/widget/cards_gradient_blur/header_text.dart';
+import 'package:flutter_basic_desing/widget/cards_gradient_blur/tabs.dart';
 
 class HomeScreeen extends StatelessWidget {
 
@@ -31,7 +32,9 @@ class _HomeBody extends StatelessWidget {
          child: Column(
             children: [
 
-               HeaderText()
+               HeaderText(),
+
+               CardTable()
 
             ],
          ),
