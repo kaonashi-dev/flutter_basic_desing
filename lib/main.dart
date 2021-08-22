@@ -30,6 +30,8 @@ class MyApp extends StatelessWidget {
             const Locale('es', 'ES'),
          ],
 
+         theme: ThemeData.dark(),
+
          title: 'DISEÑOS',
          home: HomeScreeen(),
       );
