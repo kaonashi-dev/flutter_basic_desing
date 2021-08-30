@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:flutter_basic_desing/screens/cards_gradient_blur/home.dart';
+// import 'package:flutter_basic_desing/screens/cards_gradient_blur/home.dart';
+import 'package:flutter_basic_desing/screens/simple_cards/simple_cards.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
 
@@ -30,10 +31,10 @@ class MyApp extends StatelessWidget {
             const Locale('es', 'ES'),
          ],
 
-         theme: ThemeData.dark(),
+         theme: ThemeData.light(),
 
          title: 'DISEÑOS',
-         home: HomeScreeen(),
+         home: SimpleCards(),
       );
    }
 }
